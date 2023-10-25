@@ -97,15 +97,17 @@ function bezierEvaluate(p0, p1, p2, p3, t) {
 
 <!-- BEGIN: Unity Compiled Assets -->
 <a-assets>
+<a-asset-item id="Model_Asset_obj_0" src="models/giftbox.obj"></a-asset-item>
+<a-asset-item id="Model_Asset_mtl_0" src="models/giftbox.mtl"></a-asset-item>
 </a-assets>
 <!-- END: Unity Compiled Assets -->
 <!-- BEGIN: Add Image Target (marker) -->
-<a-marker id="marker" type="pattern" preset="custom" src="pattern-ChristmasAR_Tree.patt" url="pattern-ChristmasAR_Tree.patt" emitevents="true" button>
+<a-marker id="marker" type="pattern" preset="custom" src="pattern-letterC.patt" url="pattern-letterC.patt" emitevents="true" button>
 <!-- END: Add Image Target (marker) -->
 
 <!-- BEGIN: Unity Compiled Objects -->
-<a-box src="" id="Cube_0" class="intersectable" width="0.1" height="0.1" depth="0.1" position="0 0.054 0" rotation="0 0 0" color="#006EA8" transparent=False
-></a-box>
+<a-entity obj-model="obj: #Model_Asset_obj_0; mtl: #Model_Asset_mtl_0" id="Model_0" class="intersectable" scale="0.1 0.1 0.1" position="0 0 0" rotation="0 0 0" color="#ffffff" transparent=False
+></a-entity>
 <!-- END: Unity Compiled Objects -->
 
 <!-- BEGIN: Bottom HTML -->
